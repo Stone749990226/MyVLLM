@@ -19,8 +19,11 @@ dependencies = [
     "xxhash",
 ]
 
+[tool.uv.extra-build-dependencies]
+flash-attn = ["torch"]
+
 [project.urls]
-Homepage="https://github.com/GeeeekExplorer/nano-vllm"
+Homepage = "https://github.com/GeeeekExplorer/nano-vllm"
 
 [tool.setuptools.packages.find]
 where = ["."]
